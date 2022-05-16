@@ -1,0 +1,12 @@
+<div>
+	<h4>Add Student</h4>
+</div>
+
+<div class="form-inline mx-auto" style="width: fit-content;">
+	<input class="form-control mr-3 mb-2" type="text" [(ngModel)]="firstname" placeholder="FirstName">
+	<input class="form-control mr-3 mb-2" type="text" [(ngModel)]="lastname" placeholder="lastname">
+	<input class="form-control mr-3 mb-2" type="text" [(ngModel)]="department" placeholder="Department">
+	<input class="form-control mr-3 mb-2" type="email" [(ngModel)]="email" placeholder="Email">
+	<input class="form-control mr-3 mb-2" type="text" [(ngModel)]="phone" placeholder="Phone Number">
+	<button (click)="saveStudent()" class="btn btn-primary ml-auto mr-4 mb-2">Save</button>
+</div>
